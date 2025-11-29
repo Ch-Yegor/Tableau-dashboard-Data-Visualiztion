@@ -12,8 +12,8 @@ The purpose of the dashboard is to clearly present key data and metrics for asse
 ![Dashboard 3](https://i.imgur.com/iuYS9eI.png)
 
 ## Data
-A relational database divided into two subsystems, Sales and Production, is used for visualization. The Sales subsystem includes five tables: customers, staff, orders, stores, and order_items. The Production subsystem includes four tables: categories, products, stocks, and brands.  
-– Source: [Bike Store Relational Database | SQL](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)  
+Data generated using PostgreSQL queries to a relational database is used for visualization. Initially, this database is divided into two subsystems, Sales and Production. The Sales subsystem includes five tables: customers, staff, orders, stores, and order_items. The Production subsystem includes four tables: categories, products, stocks, and brands.  
+– Source of original data: [Bike Store Relational Database | SQL](https://www.kaggle.com/datasets/dillonmyrick/bike-store-sample-database)  
 
 ## Data Modeling Process
 Some of the visualizations were created directly from data sources, while others (discounts, delivery, staff) is built around a primary fact table connected to supplementary datasets at the same store-month granularity. This structure keeps the models clean, consistent, and easy to analyze in Tableau.  
